@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
+
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
+    --font-family-title: 'Asap', sans-serif;
+    --title-lg: 800 56px/120% var(--font-family-title);
+    --title-md: 800 24px/120% var(--font-family-title);
+    --title-sm: 800 16px/120% var(--font-family-title);
+
+    --font-family-subtitle : 'Inconsolata', sans-serif;
+    --subtitle: 600 20px/120% var(--font-family-subtitle);
+
+    --font-family-text: 'Maven Pro', sans-serif;
+    --text-md: 100 16px/140% var(--font-family-text);
+    --text-sm: 400 14px/140% var(--font-family-text);
+}
+
+body{
+    background-color: var(--gray-400);
+} 
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.hover{
+    text-decoration: none;
+    border: 1px solid transparent;
+    display: inline-block; /* importante para respeitar a borda */
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+.hover:hover{
+    /* border: 1px solid var(--color-red);     */
+    border-color: var(--color-red);
+}

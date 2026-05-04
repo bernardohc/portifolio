@@ -1,0 +1,40 @@
+
+#services{
+    background-color: var(--gray-600);
+    width: 100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    padding: 72px; 
+
+    .title-card{
+        padding-bottom: 56px;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .background-color-card{
+        height: 280px;
+        width: 330px;
+        background-color: var(--gray-400);
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+    img{
+        height: 156px;
+        width: 306px;
+        border-radius: 14px;
+        padding-bottom: 8px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    p{
+        padding: 6px;
+    }
+}
